@@ -53,3 +53,18 @@ go run main.go
 # 输出
 hello, world!
 ```
+
+## 变量
+
+使用 `var` 定义变量，支持类型推断。基础数据类型划分清晰明确，有助于编写跨平台应用。编译器确保变量总是被初始化为零值，避免出现意外状况。
+```go
+package main
+
+func main() {
+    var x int32
+    var s = "hello, world!"
+
+    println(x, s)
+}
+```
+
